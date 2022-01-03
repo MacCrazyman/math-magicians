@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# PROJECT NAME
+# Math Magician
 
-> Short project decription
+> This is the first application created using React at Microverse
 
 ![screenshot](src/img/screenshot.png)
 
-Features description.
+This app is created using React to display a Single Page Application which contains a brief introduction, a calculator and math quotes.
 
 ## Built With
 
 - HTMl, CSS, JavaScript
-- Bootstrap
+- React
 
 ## Live Demo
 
@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 * Copy the repo link and clone it in your local machine
 * You can execute the following command in your git bash:
     ```` 
-    git clone https://github.com/MacCrazyman/.git
+    git clone https://github.com/MacCrazyman/math-magicians.git
     ````
 
 ### Install
@@ -41,13 +41,13 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Usage
-* You can build the files using webpack to generate a `/dist` folder with distribution files:
+* You can build the files using React scripts to generate a `/build` folder with distribution files:
     ````
     npm run build
     ````
-* Run webpack server to see the webpage working:
+* Run React server to see the webpage working:
     ````
-    npm run start
+    npm start
     ````
 * You can also open the [GitHub pages deployment](https://maccrazyman.github.io//) to see a live version of the webpage.
 
@@ -60,10 +60,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@MacCrazyman](https://github.com/MacCrazyman)
 - Twitter: [@MacCrazyman](https://twitter.com/MacCrazyman)
 - LinkedIn: [Leonardo Pareja](https://www.linkedin.com/in/leonardo-pareja-pareja/)
-
-👤 **Author 2**
-
-- GitHub: [@](https://github.com/)
 
 
 ## 🤝 Contributing
