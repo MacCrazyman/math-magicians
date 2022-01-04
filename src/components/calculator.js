@@ -1,9 +1,9 @@
 import './calculator.css';
 
-function Calculator () {
-  <div className='Calculator'>
-    
-  </div>
+function Calculator() {
+  return (
+    <div className="calculator" />
+  );
 }
 
 export default Calculator;
