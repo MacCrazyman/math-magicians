@@ -15,7 +15,7 @@ This app is created using React to display a Single Page Application which conta
 
 ## Live Demo
 
-[Live Demo Link](https://maccrazyman.github.io/)
+[Live Demo Link](https://maccrazyman.github.io/math-magicians/)
 
 
 ## Getting Started
@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
     ````
     npm start
     ````
-* You can also open the [GitHub pages deployment](https://maccrazyman.github.io//) to see a live version of the webpage.
+* You can also open the [GitHub pages deployment](https://maccrazyman.github.io/math-magicians/) to see a live version of the webpage.
 
 
 
