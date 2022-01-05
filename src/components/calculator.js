@@ -2,9 +2,14 @@ import React from 'react';
 import './calculator.css';
 import CalcButton from './button';
 
-function Calculator() {
-  return (
-    <div className="calculator">
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (<div className="calculator">
       <div id="calc-output">0</div>
       <CalcButton text="AC" className="calc-number" />
       <CalcButton text="+/-" className="calc-number" />
@@ -26,8 +31,8 @@ function Calculator() {
       <CalcButton text="." className="calc-number" />
       <CalcButton text="=" className="calc-operation" />
 
-    </div>
-  );
+    </div>)
+  };
 }
 
 export default Calculator;
