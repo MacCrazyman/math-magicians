@@ -9,7 +9,6 @@
   grid-template-columns: repeat(4, 1fr);
   width: 50%;
   margin: 100px auto;
-
 }
 
 #calc-output {
@@ -31,7 +30,7 @@
   border: 1px solid gray;
   background-color: lightgray;
   color: black;
-  font-weight:600;
+  font-weight: 600;
   line-height: 3rem;
 }
 
