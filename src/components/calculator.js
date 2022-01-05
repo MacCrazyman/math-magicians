@@ -5,25 +5,26 @@ import CalcButton from './button';
 function Calculator() {
   return (
     <div className="calculator">
-      <CalcButton text="AC" />
-      <CalcButton text="+/-" />
-      <CalcButton text="%" />
-      <CalcButton text="/" />
-      <CalcButton text="7" />
-      <CalcButton text="8" />
-      <CalcButton text="9" />
-      <CalcButton text="x" />
-      <CalcButton text="4" />
-      <CalcButton text="5" />
-      <CalcButton text="6" />
-      <CalcButton text="-" />
-      <CalcButton text="1" />
-      <CalcButton text="2" />
-      <CalcButton text="3" />
-      <CalcButton text="+" />
-      <CalcButton text="0" />
-      <CalcButton text="." />
-      <CalcButton text="=" />
+      <div id="calc-output">Numbers</div>
+      <CalcButton text="AC" className="calc-number" />
+      <CalcButton text="+/-" className="calc-number" />
+      <CalcButton text="%" className="calc-number" />
+      <CalcButton text="/" className="calc-number" />
+      <CalcButton text="7" className="calc-number" />
+      <CalcButton text="8" className="calc-number" />
+      <CalcButton text="9" className="calc-number" />
+      <CalcButton text="x" className="calc-operation" />
+      <CalcButton text="4" className="calc-number" />
+      <CalcButton text="5" className="calc-number" />
+      <CalcButton text="6" className="calc-number" />
+      <CalcButton text="-" className="calc-operation" />
+      <CalcButton text="1" className="calc-number" />
+      <CalcButton text="2" className="calc-number" />
+      <CalcButton text="3" className="calc-number" />
+      <CalcButton text="+" className="calc-operation" />
+      <CalcButton text="0" className="calc-zero" />
+      <CalcButton text="." className="calc-number" />
+      <CalcButton text="=" className="calc-operation" />
 
     </div>
   );

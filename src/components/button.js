@@ -8,9 +8,12 @@ class CalcButton extends React.Component {
   }
 
   render() {
-    const { text } = this.props;
+    const {
+      text,
+      className,
+    } = this.props;
     return (
-      <div className="calcButton">
+      <div className={`calcButton ${className}`}>
         <p>{text}</p>
       </div>
     );
@@ -19,6 +22,7 @@ class CalcButton extends React.Component {
 
 CalcButton.propTypes = {
   text: propTypes.string.isRequired,
+  className: propTypes.string.isRequired,
 };
 
 export default CalcButton;
