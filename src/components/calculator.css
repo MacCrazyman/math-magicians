@@ -7,13 +7,18 @@
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
   width: 50%;
-  margin: 0 auto;
+  margin: 100px auto;
+
 }
 
 #calc-output {
   grid-area: 1 / 1 / span 1/span 4;
+  background-color: gray;
+  color: white;
+  text-align: end;
+  padding: 1rem 5px;
+  font-size: 2rem;
 }
 
 .calc-zero {
@@ -23,4 +28,13 @@
 .calcButton {
   padding: 1rem;
   text-align: center;
+  border: 1px solid gray;
+  background-color: lightgray;
+  color: black;
+  font-weight:600;
+  line-height: 3rem;
+}
+
+.calc-operation {
+  background-color: orange;
 }

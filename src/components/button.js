@@ -14,7 +14,7 @@ class CalcButton extends React.Component {
     } = this.props;
     return (
       <div className={`calcButton ${className}`}>
-        <p>{text}</p>
+        {text}
       </div>
     );
   }
