@@ -1,17 +1,33 @@
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import './calculator.css';
+// import propTypes from 'prop-types';
 import CalcButton from './button';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      calculatorObject: {
+        total: '12',
+        next: '20',
+        operation: '-',
+      },
+    };
   }
 
   render() {
+    const { calculatorObject } = this.state;
+
     return (
       <div className="calculator">
-        <div id="calc-output">0</div>
+        <div id="calc-output">
+          {calculatorObject.total}
+          {' '}
+          {calculatorObject.operation}
+          {' '}
+          {calculatorObject.next}
+        </div>
         <CalcButton text="AC" className="calc-number" />
         <CalcButton text="+/-" className="calc-number" />
         <CalcButton text="%" className="calc-number" />
@@ -36,5 +52,9 @@ class Calculator extends React.Component {
     );
   }
 }
+
+// Calculator.propTypes = {
+//   calculatorObject: propTypes.shape({ type: propTypes.string }),
+// };
 
 export default Calculator;
