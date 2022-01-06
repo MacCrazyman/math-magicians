@@ -3,6 +3,7 @@ import React from 'react';
 import './calculator.css';
 // import propTypes from 'prop-types';
 import CalcButton from './button';
+// import calculate from './logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -18,8 +19,15 @@ class Calculator extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick =() => {
-
+  handleClick() {
+    this.setState({
+      calculatorObject: {
+        total: '40',
+        next: '20',
+        operation: 'x',
+      },
+    });
+    // calculate(calculatorObject);
   }
 
   render() {
