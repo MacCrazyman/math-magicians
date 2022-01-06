@@ -1,19 +1,17 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import './calculator.css';
-// import propTypes from 'prop-types';
 import CalcButton from './button';
 import calculate from './logic/calculate';
-// import calculate from './logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       calculatorObject: {
-        total: '12',
-        next: '20',
-        operation: '-',
+        total: null,
+        next: null,
+        operation: null,
       },
     };
 
@@ -63,9 +61,5 @@ class Calculator extends React.Component {
     );
   }
 }
-
-// Calculator.propTypes = {
-//   calculatorObject: propTypes.shape({ type: propTypes.string }),
-// };
 
 export default Calculator;
