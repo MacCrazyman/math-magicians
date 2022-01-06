@@ -1,21 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './calculator.css';
 import CalcButton from './button';
 import calculate from './logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      calculatorObject: {
-        total: null,
-        next: null,
-        operation: null,
-      },
-    };
+const Calculator = () => {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     calculatorObject: {
+  //       total: null,
+  //       next: null,
+  //       operation: null,
+  //     },
+  //   };
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+  //   this.handleClick = this.handleClick.bind(this);
+  // }
+
+  const [calculatorObject, calculate] = useState({
+          total: null,
+          next: null,
+          operation: null,
+        },)
 
   handleClick = (e) => {
     const { calculatorObject } = this.state;
@@ -23,9 +29,6 @@ class Calculator extends React.Component {
       calculatorObject: calculate(calculatorObject, e.target.innerText),
     });
   }
-
-  render() {
-    const { calculatorObject } = this.state;
 
     return (
       <div className="calculator">
@@ -58,7 +61,6 @@ class Calculator extends React.Component {
 
       </div>
     );
-  }
 }
 
 export default Calculator;
