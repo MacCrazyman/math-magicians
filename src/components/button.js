@@ -11,11 +11,12 @@ class CalcButton extends React.Component {
     const {
       text,
       className,
+      onClick,
     } = this.props;
     return (
-      <div className={`calcButton ${className}`}>
+      <button key={text} type="button" onClick={onClick} className={`calcButton ${className}`}>
         {text}
-      </div>
+      </button>
     );
   }
 }
@@ -23,6 +24,11 @@ class CalcButton extends React.Component {
 CalcButton.propTypes = {
   text: propTypes.string.isRequired,
   className: propTypes.string.isRequired,
+  onClick: propTypes.func,
+};
+
+CalcButton.defaultProps = {
+  onClick: () => {},
 };
 
 export default CalcButton;
