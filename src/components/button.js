@@ -14,7 +14,7 @@ class CalcButton extends React.Component {
       onClick,
     } = this.props;
     return (
-      <button type="button" onClick={onClick} className={`calcButton ${className}`}>
+      <button key={text} type="button" onClick={onClick} className={`calcButton ${className}`}>
         {text}
       </button>
     );
