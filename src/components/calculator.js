@@ -14,6 +14,12 @@ class Calculator extends React.Component {
         operation: '-',
       },
     };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick =() => {
+
   }
 
   render() {
@@ -28,25 +34,25 @@ class Calculator extends React.Component {
           {' '}
           {calculatorObject.next}
         </div>
-        <CalcButton text="AC" className="calc-number" />
-        <CalcButton text="+/-" className="calc-number" />
-        <CalcButton text="%" className="calc-number" />
-        <CalcButton text="/" className="calc-operation" />
-        <CalcButton text="7" className="calc-number" />
-        <CalcButton text="8" className="calc-number" />
-        <CalcButton text="9" className="calc-number" />
-        <CalcButton text="x" className="calc-operation" />
-        <CalcButton text="4" className="calc-number" />
-        <CalcButton text="5" className="calc-number" />
-        <CalcButton text="6" className="calc-number" />
-        <CalcButton text="-" className="calc-operation" />
-        <CalcButton text="1" className="calc-number" />
-        <CalcButton text="2" className="calc-number" />
-        <CalcButton text="3" className="calc-number" />
-        <CalcButton text="+" className="calc-operation" />
-        <CalcButton text="0" className="calc-zero" />
-        <CalcButton text="." className="calc-number" />
-        <CalcButton text="=" className="calc-operation" />
+        <CalcButton onClick={this.handleClick} text="AC" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="+/-" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="%" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="/" className="calc-operation" />
+        <CalcButton onClick={this.handleClick} text="7" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="8" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="9" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="x" className="calc-operation" />
+        <CalcButton onClick={this.handleClick} text="4" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="5" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="6" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="-" className="calc-operation" />
+        <CalcButton onClick={this.handleClick} text="1" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="2" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="3" className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="+" className="calc-operation" />
+        <CalcButton onClick={this.handleClick} text="0" className="calc-zero" />
+        <CalcButton onClick={this.handleClick} text="." className="calc-number" />
+        <CalcButton onClick={this.handleClick} text="=" className="calc-operation" />
 
       </div>
     );
