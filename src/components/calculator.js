@@ -41,10 +41,7 @@ const Calculator = () => {
       <CalcButton onClick={calculateObject} text="+" className="calc-operation" />
       <CalcButton onClick={calculateObject} text="0" className="calc-zero" />
       <CalcButton onClick={calculateObject} text="." className="calc-number" />
-      <button type="button" onClick={calculateObject} className="calcButton calc-operation">
-        =
-      </button>
-      {/* <CalcButton onClick={calculateObject} text="=" className="calc-operation" /> */}
+      <CalcButton onClick={calculateObject} text="=" className="calc-operation" />
 
     </div>
   );
