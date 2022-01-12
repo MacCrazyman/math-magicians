@@ -14,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgrey;
 }
 
 code {
@@ -24,4 +25,18 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+main {
+  padding: 2rem 10%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+p {
+  font-size: 1.5rem;
 }

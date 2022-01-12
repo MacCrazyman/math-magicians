@@ -11,6 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h2>Let&apos;s do some math!</h2>
         <Calculator />
       </div>
     );
