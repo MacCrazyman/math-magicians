@@ -10,7 +10,7 @@ This app is created using React to display a Single Page Application which conta
 
 ## Built With
 
-- HTMl, CSS, JavaScript
+- HTML, CSS, JavaScript
 - React
 
 ## Live Demo
