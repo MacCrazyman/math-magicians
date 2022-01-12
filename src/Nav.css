@@ -24,6 +24,7 @@ a {
 
 header {
   padding: 1rem 2rem;
+  background-color: gray;
 }
 
 .nav-link:hover {

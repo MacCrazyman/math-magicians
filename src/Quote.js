@@ -1,6 +1,7 @@
 const Quote = () => (
   <div>
-    <h2>Quote page</h2>
+    <h2>Quotes page</h2>
+    <p>Some of the best quotes will be displayed here...</p>
   </div>
 );
 

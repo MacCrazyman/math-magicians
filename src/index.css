@@ -25,3 +25,21 @@ code {
     'Courier New',
     monospace;
 }
+
+main {
+  padding: 2rem 10%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+p {
+  font-size: 1.5rem;
+}
