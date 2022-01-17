@@ -15,7 +15,11 @@ This app is created using React to display a Single Page Application which conta
 
 ## Live Demo
 
-[Live Demo Link](https://maccrazyman.github.io/math-magicians/)
+[G-H pages Demo Link](https://maccrazyman.github.io/math-magicians/)
+
+[Heroku demo](https://thawing-bastion-05829.herokuapp.com/math-magicians/)
+
+[Netlify live demo](https://elegant-volhard-00c021.netlify.app/math-magicians/)
 
 
 ## Getting Started
